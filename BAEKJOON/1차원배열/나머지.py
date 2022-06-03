@@ -3,6 +3,7 @@ import sys
 from pyparsing import restOfLine
 sys.stdin = open('4.txt')
 
+# 총 테스트케이스 3
 t = 3
 for tc in range(t):
       arr = [] 
