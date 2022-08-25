@@ -1,9 +1,4 @@
-2
-ABCDE
-abcde
-01234
-FGHIJ
-fghij
+1
 AABCDD
 afzz
 09121
