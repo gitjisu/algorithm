@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13ddfcf1-904c-4687-8b37-d3b1e18cbaaf" name="Default Changelist" comment="" />
+    <list default="true" id="13ddfcf1-904c-4687-8b37-d3b1e18cbaaf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../A_level/2001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A_level/2001.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A_level/헌터.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A_level/헌터.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="25eSnGpvli5AhJpUfTdOiGQ9rrK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,6 +65,17 @@
       <updated>1645886225172</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
