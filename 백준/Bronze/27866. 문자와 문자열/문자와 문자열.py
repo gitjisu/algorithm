@@ -1,4 +1,4 @@
-import sys
+
 
 word = input()
 num = int(input())
