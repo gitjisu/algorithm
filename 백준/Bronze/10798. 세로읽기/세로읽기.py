@@ -1,21 +1,27 @@
 import sys
-input = sys.stdin.read
 
-# 입력 읽기
+input = sys.stdin.read
 data = input().strip().split('\n')
 
-# 각 줄의 문자열을 배열로 저장
+
 arr = [line for line in data]
 
-# 최대 문자열 길이 구하기
 maxLen = max(len(line) for line in arr)
 
-result = ''
 
-# 세로로 읽기
-for col in range(maxLen):
-    for row in range(5):
-        if col < len(arr[row]):
-            result += arr[row][col]
+result = ''
+for i in range(len(arr)) :
+  
+  if (len(arr[i]) < maxLen) :
+    cnt = maxLen - len(arr[i])
+    arr[i] += '*' * cnt
+
+
+for i in range(maxLen) :
+  for j in range(5) :
+    
+    if arr[j][i] != '*' :
+      result += arr[j][i]
 
 print(result)
+    
