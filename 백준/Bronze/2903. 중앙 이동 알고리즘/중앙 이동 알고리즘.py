@@ -1,6 +1,5 @@
-n = 2
-a = 1
-for i in range(int(input())):
-    n += a
-    a *= 2
-print(n**2)
+step = int(input())
+
+vertex = 1 + (2**step)
+
+print(vertex * vertex)
