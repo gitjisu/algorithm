@@ -1,0 +1,8 @@
+-- 시작 : 부모
+-- 개체 : 자식
+-- 최초의 개체 = 부모가 NULL
+
+SELECT ID, 
+(SELECT COUNT(*) FROM ECOLI_DATA b WHERE a.ID = b.PARENT_ID) AS CHILD_COUNT
+FROM ECOLI_DATA a
+ORDER BY a.ID ASC
